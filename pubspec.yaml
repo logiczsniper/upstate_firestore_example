@@ -1,0 +1,27 @@
+name: upstate_firestore_example
+description: Demonstrates usage of Upstate state management with Cloud Firestore & Authentication.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  upstate: ^0.6.2
+  firebase_core: ^0.4.0+9
+  cloud_firestore: ^0.13.4
+  firebase_auth: ^0.15.4
+
+  cupertino_icons: ^0.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
